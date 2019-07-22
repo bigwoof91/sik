@@ -1,4 +1,4 @@
-# sik
+# sik: "sick interface kit" (wip)
 
 > A component library for everyone.
 
@@ -15,12 +15,16 @@ npm install --save sik
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'sik'
+import { Grid } from 'sik'
 
 class Example extends Component {
   render () {
     return (
-      <MyComponent />
+      <Grid>
+        <GridRow gutters>
+          <GridCol size={12}>Full Width</GridCol>
+        </GridRow>
+      </Grid>
     )
   }
 }

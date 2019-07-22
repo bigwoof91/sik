@@ -1,13 +1,12 @@
-import React, { Component } from 'react'
+import React, { PureComponent } from 'react'
+import GridExample from './GridExample';
 
-import ExampleComponent from 'sik'
+import 'sik/dist/index.css';
 
-export default class App extends Component {
+export default class App extends PureComponent {
   render () {
     return (
-      <div>
-        <ExampleComponent text='Modern React component module' />
-      </div>
+      <GridExample />
     )
   }
 }

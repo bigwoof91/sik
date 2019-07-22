@@ -1,0 +1,581 @@
+/*
+ ____________ sik styles ____________
+ This entire stylesheet is credited to @kkortes: https://github.com/kkortes/crow
+ This is an implementation of crow, simply with renamed classes
+*/
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.sik {
+  text-align: center;
+  font-size: 0 !important;
+  &:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+}
+
+.sik>* {
+  vertical-align: middle;
+  display: inline-block;
+  font-size: medium;
+  /* IE */
+  font-size: initial;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.sik.cure>*:first-child:nth-last-child(12),
+.sik.cure>*:first-child:nth-last-child(12)~* {
+  width: 8.333333333333334%;
+}
+
+.sik.cure>*:first-child:nth-last-child(11),
+.sik.cure>*:first-child:nth-last-child(11)~* {
+  width: 9.090909090909092%;
+}
+
+.sik.cure>*:first-child:nth-last-child(10),
+.sik.cure>*:first-child:nth-last-child(10)~* {
+  width: 10%;
+}
+
+.sik.cure>*:first-child:nth-last-child(9),
+.sik.cure>*:first-child:nth-last-child(9)~* {
+  width: 11.11111111111111%;
+}
+
+.sik.cure>*:first-child:nth-last-child(8),
+.sik.cure>*:first-child:nth-last-child(8)~* {
+  width: 12.5%;
+}
+
+.sik.cure>*:first-child:nth-last-child(7),
+.sik.cure>*:first-child:nth-last-child(7)~* {
+  width: 14.285714285714286%;
+}
+
+.sik.cure>*:first-child:nth-last-child(6),
+.sik.cure>*:first-child:nth-last-child(6)~* {
+  width: 16.666666666666668%;
+}
+
+.sik.cure>*:first-child:nth-last-child(5),
+.sik.cure>*:first-child:nth-last-child(5)~* {
+  width: 20%;
+}
+
+.sik.cure>*:first-child:nth-last-child(4),
+.sik.cure>*:first-child:nth-last-child(4)~* {
+  width: 25%;
+}
+
+.sik.cure>*:first-child:nth-last-child(3),
+.sik.cure>*:first-child:nth-last-child(3)~* {
+  width: 33.333333333333336%;
+}
+
+.sik.cure>*:first-child:nth-last-child(2),
+.sik.cure>*:first-child:nth-last-child(2)~* {
+  width: 50%;
+}
+
+.sik.cure>*:first-child:nth-last-child(1),
+.sik.cure>*:first-child:nth-last-child(1)~* {
+  width: 100%;
+}
+
+.sik.up>* {
+  vertical-align: top;
+}
+
+.sik.down>* {
+  vertical-align: bottom;
+}
+
+.sik>*.up {
+  vertical-align: top;
+}
+
+.sik>*.down {
+  vertical-align: bottom;
+}
+
+.sik .w-100 {
+  width: 100%;
+}
+
+.sik .w-99 {
+  width: 99%;
+}
+
+.sik .w-98 {
+  width: 98%;
+}
+
+.sik .w-97 {
+  width: 97%;
+}
+
+.sik .w-96 {
+  width: 96%;
+}
+
+.sik .w-95 {
+  width: 95%;
+}
+
+.sik .w-94 {
+  width: 94%;
+}
+
+.sik .w-93 {
+  width: 93%;
+}
+
+.sik .w-92 {
+  width: 92%;
+}
+
+.sik .w-91 {
+  width: 91%;
+}
+
+.sik .w-90 {
+  width: 90%;
+}
+
+.sik .w-89 {
+  width: 89%;
+}
+
+.sik .w-88 {
+  width: 88%;
+}
+
+.sik .w-87 {
+  width: 87%;
+}
+
+.sik .w-86 {
+  width: 86%;
+}
+
+.sik .w-85 {
+  width: 85%;
+}
+
+.sik .w-84 {
+  width: 84%;
+}
+
+.sik .w-83 {
+  width: 83%;
+}
+
+.sik .w-82 {
+  width: 82%;
+}
+
+.sik .w-81 {
+  width: 81%;
+}
+
+.sik .w-80 {
+  width: 80%;
+}
+
+.sik .w-79 {
+  width: 79%;
+}
+
+.sik .w-78 {
+  width: 78%;
+}
+
+.sik .w-77 {
+  width: 77%;
+}
+
+.sik .w-76 {
+  width: 76%;
+}
+
+.sik .w-75 {
+  width: 75%;
+}
+
+.sik .w-74 {
+  width: 74%;
+}
+
+.sik .w-73 {
+  width: 73%;
+}
+
+.sik .w-72 {
+  width: 72%;
+}
+
+.sik .w-71 {
+  width: 71%;
+}
+
+.sik .w-70 {
+  width: 70%;
+}
+
+.sik .w-69 {
+  width: 69%;
+}
+
+.sik .w-68 {
+  width: 68%;
+}
+
+.sik .w-67 {
+  width: 67%;
+}
+
+.sik .w-66 {
+  width: 66%;
+}
+
+.sik .w-65 {
+  width: 65%;
+}
+
+.sik .w-64 {
+  width: 64%;
+}
+
+.sik .w-63 {
+  width: 63%;
+}
+
+.sik .w-62 {
+  width: 62%;
+}
+
+.sik .w-61 {
+  width: 61%;
+}
+
+.sik .w-60 {
+  width: 60%;
+}
+
+.sik .w-59 {
+  width: 59%;
+}
+
+.sik .w-58 {
+  width: 58%;
+}
+
+.sik .w-57 {
+  width: 57%;
+}
+
+.sik .w-56 {
+  width: 56%;
+}
+
+.sik .w-55 {
+  width: 55%;
+}
+
+.sik .w-54 {
+  width: 54%;
+}
+
+.sik .w-53 {
+  width: 53%;
+}
+
+.sik .w-52 {
+  width: 52%;
+}
+
+.sik .w-51 {
+  width: 51%;
+}
+
+.sik .w-50 {
+  width: 50%;
+}
+
+.sik .w-49 {
+  width: 49%;
+}
+
+.sik .w-48 {
+  width: 48%;
+}
+
+.sik .w-47 {
+  width: 47%;
+}
+
+.sik .w-46 {
+  width: 46%;
+}
+
+.sik .w-45 {
+  width: 45%;
+}
+
+.sik .w-44 {
+  width: 44%;
+}
+
+.sik .w-43 {
+  width: 43%;
+}
+
+.sik .w-42 {
+  width: 42%;
+}
+
+.sik .w-41 {
+  width: 41%;
+}
+
+.sik .w-40 {
+  width: 40%;
+}
+
+.sik .w-39 {
+  width: 39%;
+}
+
+.sik .w-38 {
+  width: 38%;
+}
+
+.sik .w-37 {
+  width: 37%;
+}
+
+.sik .w-36 {
+  width: 36%;
+}
+
+.sik .w-35 {
+  width: 35%;
+}
+
+.sik .w-34 {
+  width: 34%;
+}
+
+.sik .w-33 {
+  width: 33%;
+}
+
+.sik .w-32 {
+  width: 32%;
+}
+
+.sik .w-31 {
+  width: 31%;
+}
+
+.sik .w-30 {
+  width: 30%;
+}
+
+.sik .w-29 {
+  width: 29%;
+}
+
+.sik .w-28 {
+  width: 28%;
+}
+
+.sik .w-27 {
+  width: 27%;
+}
+
+.sik .w-26 {
+  width: 26%;
+}
+
+.sik .w-25 {
+  width: 25%;
+}
+
+.sik .w-24 {
+  width: 24%;
+}
+
+.sik .w-23 {
+  width: 23%;
+}
+
+.sik .w-22 {
+  width: 22%;
+}
+
+.sik .w-21 {
+  width: 21%;
+}
+
+.sik .w-20 {
+  width: 20%;
+}
+
+.sik .w-19 {
+  width: 19%;
+}
+
+.sik .w-18 {
+  width: 18%;
+}
+
+.sik .w-17 {
+  width: 17%;
+}
+
+.sik .w-16 {
+  width: 16%;
+}
+
+.sik .w-15 {
+  width: 15%;
+}
+
+.sik .w-14 {
+  width: 14%;
+}
+
+.sik .w-13 {
+  width: 13%;
+}
+
+.sik .w-12 {
+  width: 12%;
+}
+
+.sik .w-11 {
+  width: 11%;
+}
+
+.sik .w-10 {
+  width: 10%;
+}
+
+.sik .w-9 {
+  width: 9%;
+}
+
+.sik .w-8 {
+  width: 8%;
+}
+
+.sik .w-7 {
+  width: 7%;
+}
+
+.sik .w-6 {
+  width: 6%;
+}
+
+.sik .w-5 {
+  width: 5%;
+}
+
+.sik .w-4 {
+  width: 4%;
+}
+
+.sik .w-3 {
+  width: 3%;
+}
+
+.sik .w-2 {
+  width: 2%;
+}
+
+.sik .w-1 {
+  width: 1%;
+}
+
+.sik .ws-12 {
+  width: 100%;
+}
+
+.sik .ws-11 {
+  width: 91.66666666666667%;
+}
+
+.sik .ws-10 {
+  width: 83.33333333333333%;
+}
+
+.sik .ws-9 {
+  width: 75%;
+}
+
+.sik .ws-8 {
+  width: 66.66666666666667%;
+}
+
+.sik .ws-7 {
+  width: 58.333333333333336%;
+}
+
+.sik .ws-6 {
+  width: 50%;
+}
+
+.sik .ws-5 {
+  width: 41.666666666666664%;
+}
+
+.sik .ws-4 {
+  width: 33.333333333333336%;
+}
+
+.sik .ws-3 {
+  width: 25%;
+}
+
+.sik .ws-2 {
+  width: 16.666666666666668%;
+}
+
+.sik .ws-1 {
+  width: 8.333333333333334%;
+}
+
+.sik.gutter {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.sik.gutter>* {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.nest {
+  width: 960px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}

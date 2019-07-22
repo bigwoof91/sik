@@ -2,6 +2,8 @@ import babel from 'rollup-plugin-babel'
 import commonjs from 'rollup-plugin-commonjs'
 import external from 'rollup-plugin-peer-deps-external'
 import postcss from 'rollup-plugin-postcss'
+import autoprefixer from 'autoprefixer'
+import scss from 'rollup-plugin-scss';
 import resolve from 'rollup-plugin-node-resolve'
 import url from 'rollup-plugin-url'
 import svgr from '@svgr/rollup'
@@ -24,8 +26,9 @@ export default {
   ],
   plugins: [
     external(),
+    scss({ output: 'dist/index.css', failOnError: true, }),
     postcss({
-      modules: true
+      plugins: [autoprefixer()],
     }),
     url(),
     svgr(),

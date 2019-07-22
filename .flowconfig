@@ -1,0 +1,16 @@
+[ignore]
+.*/example/node_modules/.*
+.*/node_modules/eslint-plugin-jsx-a11y/.*
+
+[include]
+
+[libs]
+./flow-typed
+./dist/index.js.flow
+
+[lints]
+
+[options]
+module.name_mapper='.*\(.css\)' -> 'empty/object'
+
+[strict]
