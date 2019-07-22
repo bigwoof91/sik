@@ -2,7 +2,7 @@
 
 > A component library for everyone.
 
-[![NPM](https://img.shields.io/npm/v/sik.svg)](https://www.npmjs.com/package/sik) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![npm version](https://badge.fury.io/js/%40donkers%2Fsik.svg)](https://badge.fury.io/js/%40donkers%2Fsik)
 
 ## Install
 
@@ -14,7 +14,6 @@ npm install --save sik
 
 ```jsx
 import React, { Component } from 'react'
-
 import { Grid, GridRow, GridCol } from 'sik'
 
 class Example extends Component {
