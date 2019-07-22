@@ -6,15 +6,13 @@ import cn from "classnames";
 type Props = {
   className?: string,
   children: React.Node,
-  down?: boolean,
-  fly?: boolean,
+  cure?: boolean,
   gutter?: boolean,
-  up?: boolean,
 };
 
-const GridRow =({ className, children, gutter, fly, up, down, }: Props): React.Node => {
-  const classes: string = cn('sik',{ gutter, fly, up, down, }, className);
-  return (<div className={classes}>{children}</div>);
+const GridRow =({ className, children, gutter, cure }: Props): React.Node => {
+  const classes: string = cn('sik',{ gutter, cure }, className);
+  return (<div data-testid="grid-row" className={classes}>{children}</div>);
 };
 
 /** @component */

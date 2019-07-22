@@ -13,7 +13,7 @@ type Props = {
 
 const GridCol =({ className, children, up, down, size = 12 }: Props): React.Node => {
   const classes: string = cn('sik-col',{ up, down, [`ws-${size}`]: size }, className);
-  return (<div className={classes}>{children}</div>);
+  return (<div data-testid="grid-col" className={classes}>{children}</div>);
 };
 
 /** @component */
