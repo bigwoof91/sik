@@ -1,4 +1,4 @@
-# sik: "sick interface kit" (wip)
+# sik "sick interface kit" (work in progress)
 
 > A component library for everyone.
 
