@@ -15,7 +15,7 @@ npm install --save sik
 ```jsx
 import React, { Component } from 'react'
 
-import { Grid } from 'sik'
+import { Grid, GridRow, GridCol } from 'sik'
 
 class Example extends Component {
   render () {
