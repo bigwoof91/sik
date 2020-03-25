@@ -5,9 +5,7 @@ type Props = {
   children: React.Node,
 };
 
-function Grid({ children }: Props): React.Node {
-  return children;
-}
+const Grid = ({ children }: Props): React.Node => (children);
 
 /** @component */
 export default Grid;

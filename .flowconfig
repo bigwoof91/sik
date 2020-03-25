@@ -4,10 +4,6 @@
 
 [include]
 
-[libs]
-./flow-typed
-./dist/index.js.flow
-
 [lints]
 
 [options]
